@@ -1,0 +1,30 @@
+{
+	"name": "dotted-object",
+	"version": "0.0.1",
+	"description": "Turn a dot string into a value",
+	"author": {
+		"name": "Michiel van der Velde",
+		"email": "michiel@michielvdvelde.nl",
+		"url": "http://michielvdvelde.nl"
+	},
+	"license": "MIT",
+  "types": "types.d.ts",
+	"keywords": [
+    "dot",
+    "dotted",
+    "object",
+    "extract",
+    "value"
+  ],
+	"engines": {
+		"node": "=>4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MichielvdVelde/dotted-object.git"
+	},
+	"bugs": {
+		"url": "https://github.com/MichielvdVelde/dotted-object/issues"
+	},
+	"homepage": "https://github.com/MichielvdVelde/dotted-object/"
+}
