@@ -2,7 +2,7 @@
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-A small, single-feature module to use string with a dot notation to extract
+A small, single-feature module to use a string with a dot notation to extract
 values from an object.
 
 ```
@@ -11,8 +11,6 @@ npm i dotted-object [--save]
 
 ```js
 const dotted = require('dotted-object')
-
-const str = 'data.geo.lat'
 
 const obj = {
   data: {
@@ -23,7 +21,8 @@ const obj = {
   }
 }
 
-const value = dotted(str, obj)
+const value = dotted('data.geo.lat', obj)
+
 console.log(value) // => Outputs 44.335
 ```
 

@@ -1,6 +1,6 @@
 {
 	"name": "dotted-object",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Turn a dot string into a value",
 	"author": {
 		"name": "Michiel van der Velde",
