@@ -5,10 +5,10 @@ module.exports = exports = function (dotted, object) {
 
   for (let i = 0; i < dottedSplit.length; i++) {
     const key = dottedSplit[i]
-    const value = key in object ? object[key] : false
+    const value = key in object ? object[key] : undefined
 
     if (i === dottedSplit.length - 1) return value
-    if (!value || typeof value !== 'object' || !value[dottedSplit[i + 1]]) {
+    if (typeof value !== 'object' || !value[dottedSplit[i + 1]]) {
       throw new TypeError(`${typeof value} has no property '${dottedSplit[i + 1]}'`)
     }
 
