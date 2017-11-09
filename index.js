@@ -1,7 +1,7 @@
 'use strict'
 
-module.exports = exports = function (dotted, object) {
-  const dottedSplit = dotted.split('.')
+module.exports = exports = function (dotted, object, divider = '.') {
+  const dottedSplit = dotted.split(divider)
 
   for (let i = 0; i < dottedSplit.length; i++) {
     const key = dottedSplit[i]
