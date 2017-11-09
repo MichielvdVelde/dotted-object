@@ -23,6 +23,11 @@ const obj = {
 
 const value = dotted('data.geo.lat', obj)
 
+/*
+ To use a custom divider, use the thrid argument:
+  const value = dotted('data:geo:lat', obj, ':')
+ */
+
 console.log(value) // => Outputs 44.335
 ```
 

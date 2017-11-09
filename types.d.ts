@@ -1,1 +1,1 @@
-export default function (dotted: string, object: any): any;
+export default function (dotted: string, object: any, divider?: string): any;
